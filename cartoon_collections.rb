@@ -24,6 +24,7 @@ end
 
 def find_valid_calls(planeteer_calls)
   binding.pry
+  planeteer_calls.find {|anything| planeteer_calls.include?(valid_calls)}
   # valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   # if planeteer_calls.any?  {|equalnames| = valid_calls}
   # end
